@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+a {
+    cursor: pointer;
+    color: rgb(171, 220, 179);
+    font-style: italic;
+}
+
+section {
+    background-color: #11656b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    padding-bottom: 0;
+    padding-top: 0;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoimg {
+    height: 4em;
+}
+
+.comp {
+    font-family: 'Roboto Mono', 'Segoe UI', monospace;
+    font-weight: bolder;
+    font-size: 3em;
+    color: white;
+}
+
+form {
+    color: white;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+.remember {
+    display: flex;
+}
+
+form div {
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    padding: 1em;
+    height: 40px;
+    background-color: #11656b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+footer #logoimg {
+    height: 2em;
+    width: 3em;
+}
+
+footer #comp {
+    color: white;
+    font-size: 1.2em;
+}
+
+footer div {
+    margin: 0.2em;
+}
+
+@media (max-width: 300px) {
+    body {
+        font-size: 10px;
+    }
+}
+
+.error {
+    background-color: rgb(237, 155, 169);
+}
+
+.hidden {
+    display: none;
+}
+
+.error_display {
+    font: message-box;
+}
